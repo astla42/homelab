@@ -40,7 +40,7 @@ open (LOG, ">> $logfile");
 
 # Find the filename on disk since all we get is the filename and not the
 # whole directory. I only have two possible directories it would be in
-# so they are hardcoded here.
+# so they are hardcoded here. 
 # A future opportunity would be to make that read from all the storage
 # directories on MythTV but for home use when these never change, this will do.
 sub findEpisodeOnDisk {
